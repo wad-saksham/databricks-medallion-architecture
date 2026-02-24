@@ -1,0 +1,17 @@
+# MINIMAL REQUIREMENTS - Core packages needed to run the project
+# Install these first before the full requirements.txt
+# Updated for Python 3.12 compatibility
+
+# Core Spark & Delta Lake (required)
+pyspark==3.5.3
+delta-spark==3.2.1
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Data generation
+faker>=19.0.0
+
+# Additional dependencies that pyspark needs
+py4j>=0.10.9
